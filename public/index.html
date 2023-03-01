@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Реєстрація</title>
+		<style>
+			/* CSS стилі для форми реєстрації */
+			form {
+				max-width: 400px;
+				margin: 0 auto;
+				padding: 20px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				font-family: Arial, sans-serif;
+			}
+
+			label {
+				display: block;
+				margin-bottom: 5px;
+				font-weight: bold;
+			}
+
+			input,
+			select {
+				display: block;
+				width: 100%;
+				padding: 10px;
+				margin-bottom: 10px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				font-size: 16px;
+			}
+
+			button[type="submit"] {
+				display: block;
+				width: 100%;
+				padding: 10px;
+				margin-top: 20px;
+				background-color: #4caf50;
+				color: #fff;
+				border: none;
+				border-radius: 5px;
+				font-size: 16px;
+				cursor: pointer;
+			}
+
+			button[type="submit"]:hover {
+				background-color: #3e8e41;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<label for="username">Ім'я користувача:</label>
+			<input type="text" id="username" name="username" required />
+
+			<label for="email">Електронна пошта:</label>
+			<input type="email" id="email" name="email" required />
+
+			<label for="password">Пароль:</label>
+			<input type="password" id="password" name="password" required />
+
+			<label for="confirm-password">Підтвердіть пароль:</label>
+			<input
+				type="password"
+				id="confirm-password"
+				name="confirm-password"
+				required
+			/>
+
+			<label for="birthdate">Дата народження:</label>
+			<input type="date" id="birthdate" name="birthdate" required />
+
+			<label for="gender">Стать:</label>
+			<select id="gender" name="gender" required>
+				<option value="">Оберіть стать</option>
+				<option value="male">Чоловіча</option>
+				<option value="female">Жіноча</option>
+				<option value="other">Інша</option>
+			</select>
+
+			<button type="submit">Зареєструватися</button>
+		</form>
+	</body>
+</html>

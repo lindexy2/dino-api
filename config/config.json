@@ -1,0 +1,23 @@
+{
+	"development": {
+		"username": "dino_wars",
+		"password": "dino_wars_pass",
+		"database": "dev_dino_wars_db",
+		"host": "3.71.1.101",
+		"dialect": "postgres"
+	},
+	"test": {
+		"username": "dino_wars",
+		"password": "dino_wars_pass",
+		"database": "",
+		"host": "3.71.1.101",
+		"dialect": "postgres"
+	},
+	"production": {
+		"username": "dino_wars",
+		"password": "dino_wars_pass",
+		"database": "prod_dino_wars_db",
+		"host": "3.71.1.101",
+		"dialect": "postgres"
+	}
+}
