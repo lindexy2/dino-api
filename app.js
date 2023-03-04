@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
-123
+123 // i offer to delete this string
 const db = require("./db/index");
 
 const router = require("./routes/index.js");
